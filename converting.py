@@ -30,5 +30,5 @@ else:
 text = " ".join(s1)
 main += str(n) + ",\n\t" + "'text': " + f"'{text}',\n\t" + f"{articles}\n" + "}\n\n"
 
-print(main)
+print('\n' + main)
 pyperclip.copy(main)
