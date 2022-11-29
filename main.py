@@ -4,7 +4,7 @@ import Articles
 from random import sample
 
 
-bot = telebot.TeleBot("5820178368:AAElZNM4Y02u1YobcMroA79kiuccXUOxh_s", # можешь заменить этот токен внутри ковычек на свой либо оставить и использовать моего бота
+bot = telebot.TeleBot("ТОКЕН ВСТАВИТЬ СЮДА ВМЕСТО ЭТОГОГО ТЕКСТА БЕЗ ПРОБЕЛОВ", # можешь заменить этот токен внутри ковычек на свой либо оставить и использовать моего бота
                       parse_mode=None)
 
 
