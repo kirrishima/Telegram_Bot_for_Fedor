@@ -1,6 +1,5 @@
 import pyperclip
 
-
 s = input("Введи свою строку с текстом и программа сама превратит его в код, а так же сразу скопирует результат в буфер обмена ")
 with open('count.txt', 'r+') as file:
     count = int(file.readlines()[-1])
@@ -31,4 +30,5 @@ else:
 text = " ".join(s1)
 main += str(n) + ",\n\t" + "'text': " + f"'{text}',\n\t" + f"{articles}\n" + "}\n\n"
 
+print(main)
 pyperclip.copy(main)
